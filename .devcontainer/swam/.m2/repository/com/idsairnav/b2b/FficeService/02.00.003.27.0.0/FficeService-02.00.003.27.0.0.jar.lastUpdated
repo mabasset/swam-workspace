@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jun 18 16:12:27 CEST 2024
+https\://repo.maven.apache.org/maven2/.lastUpdated=1718719947299
+http\://0.0.0.0/.error=Could not transfer artifact com.idsairnav.b2b\:FficeService\:jar\:02.00.003.27.0.0 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [ids-libs-java-release (http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1708595656136
+https\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.error=Could not transfer artifact com.idsairnav.b2b\:FficeService\:jar\:02.00.003.27.0.0 from/to ids-libs-java-release (https\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/)\: Unsupported or unrecognized SSL message
+https\://repo.maven.apache.org/maven2/.error=
+http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.lastUpdated=1708596765513
+@default-ids-libs-java-release-https\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.lastUpdated=1708596088109

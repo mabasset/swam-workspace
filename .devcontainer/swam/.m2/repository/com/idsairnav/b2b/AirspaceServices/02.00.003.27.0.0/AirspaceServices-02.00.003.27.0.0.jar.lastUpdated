@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jun 18 16:12:27 CEST 2024
+https\://repo.maven.apache.org/maven2/.lastUpdated=1718719947289
+http\://0.0.0.0/.error=Could not transfer artifact com.idsairnav.b2b\:AirspaceServices\:jar\:02.00.003.27.0.0 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [ids-libs-java-release (http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1709654055723
+@default-ids-libs-java-release-http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.lastUpdated=1709067957139
+http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.error=Could not transfer artifact com.idsairnav.b2b\:AirspaceServices\:jar\:02.00.003.27.0.0 from/to ids-libs-java-release (http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/)\: transfer failed for http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/com/idsairnav/b2b/AirspaceServices/02.00.003.27.0.0/AirspaceServices-02.00.003.27.0.0.jar
+https\://repo.maven.apache.org/maven2/.error=

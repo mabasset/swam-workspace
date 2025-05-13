@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Feb 22 10:29:11 CET 2024
+https\://repo.maven.apache.org/maven2/.lastUpdated=1708594151715
+http\://0.0.0.0/.error=Could not transfer artifact com.idsairnav.b2b\:FficeService\:pom\:27.0 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [ids-libs-java-release (http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1708594151560
+https\://repo.maven.apache.org/maven2/.error=

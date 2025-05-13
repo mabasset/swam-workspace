@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Feb 22 11:07:38 CET 2024
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1708596399034
+http\://0.0.0.0/.error=Could not transfer artifact com.idsairnav.b2b\:AirspaceServices\:pom\:27.0 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [ids-libs-java-release (http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1708596377940
+https\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.error=Could not transfer artifact com.idsairnav.b2b\:AirspaceServices\:pom\:27.0 from/to ids-libs-java-release (https\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/)\: Unsupported or unrecognized SSL message
+http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.idsairnav.b2b\:AirspaceServices\:pom\:27.0 from/to central (https\://repo.maven.apache.org/maven2)\: Connect to repo.maven.apache.org\:443 [repo.maven.apache.org/151.101.240.215] failed\: Connect timed out
+http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.lastUpdated=1708596458612
+@default-ids-libs-java-release-https\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.lastUpdated=1708596087305

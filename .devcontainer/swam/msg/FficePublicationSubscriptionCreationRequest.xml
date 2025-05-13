@@ -1,0 +1,30 @@
+<ffice:FficePublicationSubscriptionCreationRequest xmlns:ffice="eurocontrol/cfmu/b2b/FficeServices">
+    <endUserId>tstxb2b7</endUserId>
+    <sendTime>2023-09-11 20:43:57</sendTime>
+    <description>FFICE_PUBLICATION subscription</description>
+    <messageFilter>
+        <events>
+            <item>FNM</item>
+            <item>DLA</item>
+            <item>ARR</item>
+            <item>DEP</item>
+            <item>AFP</item>
+            <item>FPL</item>
+            <item>CHG</item>
+            <item>MFS</item>
+            <item>CNL</item>
+            <item>REVAL</item>
+        </events>
+        <flightSet>
+            <item>
+                <anuIds>
+                    <item>ACCLIRR</item>
+                    <item>ACCLIMM</item>
+                </anuIds>
+            </item>
+        </flightSet>
+    </messageFilter>
+    <payloadConfiguration>
+        <concernedUnits>true</concernedUnits>
+    </payloadConfiguration>
+</ffice:FficePublicationSubscriptionCreationRequest>

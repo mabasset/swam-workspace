@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 07 16:50:00 UTC 2025
+@default-ids-libs-java-release-http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.lastUpdated=1738947000149
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1708594089476
+http\://0.0.0.0/.error=Could not transfer artifact com.idsairnav.b2b\:GeneralInformationServices\:jar\:${b2bservicedatabindings.version} from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [ids-libs-java-release (http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/, default, releases+snapshots)]
+http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.error=Could not transfer artifact com.idsairnav.b2b\:GeneralInformationServices\:jar\:${b2bservicedatabindings.version} from/to ids-libs-java-release (http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/)\: pcvartifactory.idsairnav.enav.it
+https\://repo.maven.apache.org/maven2/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1738947000075

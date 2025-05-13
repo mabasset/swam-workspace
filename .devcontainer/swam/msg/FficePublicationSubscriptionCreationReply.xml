@@ -1,0 +1,50 @@
+<ns19:FficePublicationSubscriptionCreationReply xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns4="http://www.aixm.aero/schema/5.1.1" xmlns:ns3="http://www.w3.org/1999/xlink" xmlns:ns6="http://www.isotc211.org/2005/gmd" xmlns:ns20="eurocontrol/cfmu/b2b/GeneralinformationServices" xmlns:ns5="http://www.isotc211.org/2005/gco" xmlns:ns8="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:ns7="http://www.isotc211.org/2005/gts" xmlns:ns13="http://www.fixm.aero/ffice/1.1/bugfix/2024.04.30" xmlns:ns9="http://www.eurocontrol.int/cfmu/b2b/ADRMessage" xmlns:ns12="http://www.eurocontrol.int/nm/fixm/ext/1.5" xmlns:ns11="http://www.fixm.aero/base/4.3" xmlns:ns10="http://www.fixm.aero/flight/4.3" xmlns:ns17="eurocontrol/cfmu/b2b/FlightServices" xmlns:ns16="eurocontrol/cfmu/b2b/AirspaceServices" xmlns:ns15="eurocontrol/cfmu/b2b/CommonServices" xmlns:ns14="http://www.fixm.aero/app/ffice/1.1" xmlns:ns19="eurocontrol/cfmu/b2b/FficeServices" xmlns:ns18="eurocontrol/cfmu/b2b/FlowServices">
+    <requestReceptionTime>2025-01-21 14:39:14</requestReceptionTime>
+    <requestId>B2B_CUR:9026370</requestId>
+    <sendTime>2025-01-21 14:39:16</sendTime>
+    <status>OK</status>
+    <data>
+        <subscription>
+            <summary>
+                <uuid>2fcf829b-53cf-4c00-9349-370f92c5cfc6</uuid>
+                <version>1</version>
+                <release>27.0.0</release>
+                <anuId>EH006509</anuId>
+                <queueName>b2b.FFICE_PUBLICATION.admin.1737470273120</queueName>
+                <topic>FFICE_PUBLICATION</topic>
+                <state>PAUSED</state>
+                <description>FFICE_PUBLICATION subscription</description>
+                <creationDate>2025-01-21 14:39:16</creationDate>
+                <lastUpdatedBy>c5026509</lastUpdatedBy>
+                <lastUpdatedOn>2025-01-21 14:39:16 718</lastUpdatedOn>
+                <lastUpdateReason>USER_REQUEST</lastUpdateReason>
+                <heartbeatEnabled>true</heartbeatEnabled>
+            </summary>
+            <messageFilter>
+                <events>
+                    <item>MFS</item>
+                    <item>AFP</item>
+                    <item>FPL</item>
+                    <item>CNL</item>
+                    <item>REVAL</item>
+                    <item>ARR</item>
+                    <item>CHG</item>
+                    <item>FNM</item>
+                    <item>DEP</item>
+                    <item>DLA</item>
+                </events>
+                <flightSet>
+                    <item>
+                        <anuIds>
+                            <item>ACCLIMM</item>
+                            <item>ACCLIRR</item>
+                        </anuIds>
+                    </item>
+                </flightSet>
+            </messageFilter>
+            <payloadConfiguration>
+                <concernedUnits>true</concernedUnits>
+            </payloadConfiguration>
+        </subscription>
+    </data>
+</ns19:FficePublicationSubscriptionCreationReply>

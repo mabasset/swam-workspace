@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "amhsswimgw",
+            "database": "amhsswimgw",
+            "username": "postgres",
+            "password": "postgres"
+        }
+    ],
+    "sqltools.autoOpenSessionFiles": false,
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+}

@@ -1,0 +1,92 @@
+<AmhsMsg>
+    <AmhsMte>
+        <Type>0</Type>
+        <MsgId>0</MsgId>
+        <CrtnTm>20230921123454</CrtnTm>
+        <CrtnMs>264</CrtnMs>
+        <BytesRxTx>1329</BytesRxTx>
+        <AddrStatus>0</AddrStatus>
+        <SrcPort>
+            <PortNbr>0</PortNbr>
+            <PortType>AMHS</PortType>
+            <ExchngType>X400</ExchngType>
+            <RxTxTm>20230921123454</RxTxTm>
+        </SrcPort>
+        <OrgnlFlNm>P4K.20230921123454264.AMHS...0000000000.R00</OrgnlFlNm>
+        <AftnPri>FF</AftnPri>
+        <MtsId>
+            <LclId>P20230921123454055.Rxx</LclId>
+        </MtsId>
+        <Orgntr>C=XX,A=ICAO,P=HL,O=AFTN,OU1=HLCCYFYX</Orgntr>
+        <AllRcpt>
+            <Rcpt>C=XX,A=ICAO,P=HL,O=AFTN,OU1=HLCCYNYX</Rcpt>
+            <Nbr>0</Nbr>
+            <ExplCnvrsn>-1</ExplCnvrsn>
+            <RprtRqst>0</RprtRqst>
+            <DlvryTm>20230921124007</DlvryTm>
+            <Rspnsblty>1</Rspnsblty>
+            <RjctSts>0</RjctSts>
+            <AddrStatus>0</AddrStatus>
+        </AllRcpt>
+        <ImprtncId>1</ImprtncId>
+        <CnvrtdInfoType>2.6.1.12.0</CnvrtdInfoType>
+        <OrgnlInfoType>IA5_TEXT</OrgnlInfoType>
+        <CntntType>22</CntntType>
+        <CntntId>230921122406.969</CntntId>
+        <CntntCrltr>
+            <CntntCrltrText>subject: date: 20230921124006 id:
+                C=XX,A=ICAO,P=HL,O=AFTN,OU1=HLCCYFYX_XXXXUA01-ADMIN-000000001226</CntntCrltrText>
+            <CntntCrltrType>1</CntntCrltrType>
+            <CntntCrltrLen>99</CntntCrltrLen>
+        </CntntCrltr>
+        <SbmsnTm>20230921124007</SbmsnTm>
+        <Trc>
+            <Mta>
+                <GlblDmn>C=XX,A=ICAO,P=XX</GlblDmn>
+            </Mta>
+            <ArvlTm>20230921124007</ArvlTm>
+        </Trc>
+        <IntrnlTrc>
+            <Mta>
+                <GlblDmn>C=XX,A=ICAO,P=XX</GlblDmn>
+                <MtaNm>MTA-HLCC-1</MtaNm>
+            </Mta>
+            <ArvlTm>20230921124007</ArvlTm>
+        </IntrnlTrc>
+    </AmhsMte>
+    <AmhsIpm>
+        <IpmId>
+            <Orgntr>C=XX,A=ICAO,P=HL,O=AFTN,OU1=HLCCYFYX</Orgntr>
+            <UsrRltvId>XXXXUA01-ADMIN-000000001226</UsrRltvId>
+        </IpmId>
+        <Orgntr>C=XX,A=ICAO,P=HL,O=AFTN,OU1=HLCCYFYX</Orgntr>
+        <ToRcpt>
+            <Rcpt>C=XX,A=ICAO,P=HL,O=AFTN,OU1=HLCCYNYX</Rcpt>
+            <Prcdnc>14</Prcdnc>
+        </ToRcpt>
+        <ImprtncId>1</ImprtncId>
+        <AuthTm>20230921124006</AuthTm>
+        <PrcdncPlcy>1.3.27.8.0.0</PrcdncPlcy>
+        <BdyPrt>
+            <MsgId>0</MsgId>
+            <Nbr>1</Nbr>
+            <Frmt>0</Frmt>
+            <Size>582</Size>
+            <PrmsIa5>
+                <Rprtr>5</Rprtr>
+            </PrmsIa5>
+            <Cntnt>
+                -TITLE IARR
+                -ORGN LIMMYFDP
+                -ARCID WMT69UD
+                -ADEP LIMC
+                -ADA 231003
+                -ATA 1553
+                -ADES LPPR
+                -FILTIM 031553
+                -EOBT 1525
+                -EOBD 20231213
+            </Cntnt>
+        </BdyPrt>
+    </AmhsIpm>
+</AmhsMsg>

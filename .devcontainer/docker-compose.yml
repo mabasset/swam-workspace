@@ -1,0 +1,32 @@
+services:
+  swam:
+    pull_policy: never
+    build:
+      context: swam
+      dockerfile: Dockerfile
+    image: swam
+    container_name: swam
+    depends_on:
+      - database
+    network_mode: "host"
+    volumes:
+      - ./swam/.vscode/:/app/.vscode/
+      - ../app/:/app/
+      - ./swam/msg/:/msg/
+      - ./swam/resources/:/home/ubimex/resources
+    command: sleep infinity
+
+  database:
+    image: postgres:16
+    container_name: swam-db
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_DB: "amhsswimgw"
+    network_mode: "host"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+#       - swam-db-data:/var/lib/postgresql/data
+  
+# volumes:
+#   swam-db-data:

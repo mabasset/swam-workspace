@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 19 11:57:15 UTC 2024
+https\://repo.maven.apache.org/maven2/.lastUpdated=1734609435252
+@default-ids-libs-java-release-http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.lastUpdated=1734609435107
+http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.error=Could not transfer artifact com.idsairnav.b2b\:FlowServices\:jar\:javadoc\:02.00.003.27.0.0 from/to ids-libs-java-release (http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/)\: pcvartifactory.idsairnav.enav.it
+https\://repo.maven.apache.org/maven2/.error=

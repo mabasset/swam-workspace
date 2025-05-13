@@ -1,0 +1,124 @@
+<ffice:FficePublicationMessage xmlns:ns6="http://www.fixm.aero/ffice/1.1/bugfix/2024.04.30"
+    xmlns:ns5="http://www.fixm.aero/flight/4.3"
+    xmlns:ns7="http://www.eurocontrol.int/nm/fixm/ext/1.5"
+    xmlns:ns9="http://www.fixm.aero/app/ffice/1.1" xmlns:ffice="eurocontrol/cfmu/b2b/FficeServices"
+    xmlns:cm="eurocontrol/cfmu/b2b/CommonServices" xmlns:ns4="http://www.fixm.aero/base/4.3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <uuid>0d8da17f-3d74-4ecf-a31c-72fcdef5f936</uuid>
+    <timestamp>2025-02-28 15:34:59 186</timestamp>
+    <messageExchangePattern>PUBLISH_SUBSCRIBE</messageExchangePattern>
+    <type>BUSINESS_MESSAGE</type>
+    <topic>FFICE_PUBLICATION</topic>
+    <subscriptionUuid>c26466e7-9b52-4e24-bf0f-1abf7444d8e5</subscriptionUuid>
+    <subscriptionVersion>1</subscriptionVersion>
+    <parentMessageId>20250228153457IAT09257311</parentMessageId>
+    <flight_v4_3>
+        <ns5:aircraft>
+            <ns5:aircraftAddress>3003F5</ns5:aircraftAddress>
+            <ns5:aircraftType>
+                <ns5:icaoAircraftTypeDesignator>F2TH</ns5:icaoAircraftTypeDesignator>
+            </ns5:aircraftType>
+            <ns5:capabilities>
+                <ns5:communication>
+                    <ns5:communicationCapabilityCode>E2 E3 H M3 P2 Y</ns5:communicationCapabilityCode>
+                    <ns5:datalinkCommunicationCapabilityCode>J1 J3 J4 J7</ns5:datalinkCommunicationCapabilityCode>
+                </ns5:communication>
+                <ns5:navigation>
+                    <ns5:navigationCapabilityCode>B D F G I W X</ns5:navigationCapabilityCode>
+                    <ns5:performanceBasedCode>B1 D1 C1 S2 L1 A1 O1</ns5:performanceBasedCode>
+                </ns5:navigation>
+                <ns5:standardCapabilities>STANDARD</ns5:standardCapabilities>
+                <ns5:surveillance>
+                    <ns5:otherSurveillanceCapabilities>260B RSP180</ns5:otherSurveillanceCapabilities>
+                    <ns5:surveillanceCapabilityCode>B1 D1 L</ns5:surveillanceCapabilityCode>
+                </ns5:surveillance>
+            </ns5:capabilities>
+            <ns5:registration>IFEDN</ns5:registration>
+            <ns5:wakeTurbulence>M</ns5:wakeTurbulence>
+        </ns5:aircraft>
+        <ns5:arrival>
+            <ns5:destinationAerodrome>
+                <ns4:locationIndicator>LIML</ns4:locationIndicator>
+            </ns5:destinationAerodrome>
+        </ns5:arrival>
+        <ns5:departure>
+            <ns5:departureAerodrome>
+                <ns4:locationIndicator>LIRA</ns4:locationIndicator>
+            </ns5:departureAerodrome>
+            <ns5:estimatedOffBlockTime>2025-02-28T17:40:00Z</ns5:estimatedOffBlockTime>
+        </ns5:departure>
+        <ns5:extension xsi:type="ns7:NmFlightExtensionType">
+            <ns7:ifpsIdentifier>AT09257311</ns7:ifpsIdentifier>
+        </ns5:extension>
+        <ns5:flightIdentification>
+            <ns5:aircraftIdentification>SIO615</ns5:aircraftIdentification>
+        </ns5:flightIdentification>
+        <ns5:flightPlanOriginator>
+            <ns4:contact>
+                <ns4:onlineContact>
+                    <ns4:linkage>KCGSXAAP</ns4:linkage>
+                    <ns4:network>
+                        <ns4:type>AFTN</ns4:type>
+                    </ns4:network>
+                </ns4:onlineContact>
+            </ns4:contact>
+            <ns4:identifier>NA</ns4:identifier>
+            <ns4:identifierDomain>FF-ICE</ns4:identifierDomain>
+        </ns5:flightPlanOriginator>
+        <ns5:routeTrajectoryGroup>
+            <ns5:agreed>
+                <ns5:element>
+                    <ns5:elementStartPoint>
+                        <ns4:aerodromeReferencePoint>
+                            <ns4:locationIndicator>LIRA</ns4:locationIndicator>
+                        </ns4:aerodromeReferencePoint>
+                    </ns5:elementStartPoint>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:elementStartPoint>
+                        <ns4:aerodromeReferencePoint>
+                            <ns4:locationIndicator>LIML</ns4:locationIndicator>
+                        </ns4:aerodromeReferencePoint>
+                    </ns5:elementStartPoint>
+                </ns5:element>
+                <ns5:routeInformation>
+                    <ns5:cruisingLevel>
+                        <ns4:flightLevel uom="FL">280</ns4:flightLevel>
+                    </ns5:cruisingLevel>
+                    <ns5:cruisingSpeed uom="KT">461</ns5:cruisingSpeed>
+                    <ns5:routeText>SOVAN DCT AMTEL DCT IBRID DCT KUGIX DCT LOMED DCT BALUK DCT RUXOL
+                        DCT KALIK</ns5:routeText>
+                </ns5:routeInformation>
+            </ns5:agreed>
+        </ns5:routeTrajectoryGroup>
+    </flight_v4_3>
+    <eventHistory>
+        <item>
+            <sequenceNumber>1</sequenceNumber>
+            <event>
+                <eventType>FPL</eventType>
+                <timestamp>2025-02-28 08:22:58</timestamp>
+                <originator>KCGSHDL16</originator>
+            </event>
+        </item>
+        <item>
+            <sequenceNumber>2</sequenceNumber>
+            <event>
+                <eventType>CNL</eventType>
+                <timestamp>2025-02-28 15:34:57</timestamp>
+                <originator>KCGSHDL16</originator>
+            </event>
+        </item>
+    </eventHistory>
+    <concernedUnits>
+        <item>AROLIRF</item>
+        <item>ACCLSAST</item>
+        <item>CFPUAODO</item>
+        <item>ACCLIRR</item>
+        <item>ACCLIMM</item>
+        <item>AROLIML</item>
+        <item>FDPLIMM</item>
+        <item>FDPLIRR</item>
+        <item>ARO1LIML</item>
+    </concernedUnits>
+</ffice:FficePublicationMessage>

@@ -1,0 +1,12 @@
+{
+	"name": "workspace",
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "swam",
+	"forwardPorts": [8080, 8090],
+	"workspaceFolder": "/app/",
+	"customizations": {
+    	"vscode": {
+    		"extensions": ["mtxr.sqltools-driver-pg", "vmware.vscode-boot-dev-pack", "oracle.oracle-java", "redhat.vscode-xml"]
+    	}
+	}
+}

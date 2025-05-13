@@ -1,0 +1,14 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Mar 07 09:10:52 UTC 2025
+http\://0.0.0.0/.error=Could not transfer artifact com.idsairnav.b2b\:GeneralInformationServices\:pom\:02.00.003.27.0.0 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [ids-libs-java-release (http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1739178934453
+http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.lastUpdated=1708596857456
+https\://repository.jboss.org/nexus/content/groups/public/.error=
+@default-ids-libs-java-release-https\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.lastUpdated=1708596087502
+https\://dl.bintray.com/jwtk/coveralls-maven-plugin/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1741338652169
+https\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1740999780596
+http\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.error=
+https\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/.error=Could not transfer artifact com.idsairnav.b2b\:GeneralInformationServices\:pom\:02.00.003.27.0.0 from/to ids-libs-java-release (https\://pcvartifactory.idsairnav.enav.it\:8082/artifactory/ids-libs-java-release/)\: Unsupported or unrecognized SSL message
+https\://repo.maven.apache.org/maven2/.error=
+https\://dl.bintray.com/jwtk/coveralls-maven-plugin/.lastUpdated=1740999780730
