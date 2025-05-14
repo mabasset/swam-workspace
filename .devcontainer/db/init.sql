@@ -1109,4 +1109,5 @@ ALTER TABLE ONLY public.message_history
 --
 -- PostgreSQL database dump complete
 --
-
+INSERT INTO users (username, password)
+    VALUES ('admin', 'admin');

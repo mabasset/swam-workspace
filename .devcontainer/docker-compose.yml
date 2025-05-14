@@ -12,7 +12,8 @@ services:
     volumes:
       - ./swam/.vscode/:/app/.vscode/
       - ../app/:/app/
-      - ./swam/msg/:/msg/
+      - ./swam/msg/:/app/msg/
+      - ./swam/docs/:/app/docs/
       - ./swam/resources/:/home/ubimex/resources
     command: sleep infinity
 
