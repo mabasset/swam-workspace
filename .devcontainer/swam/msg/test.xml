@@ -1,0 +1,46 @@
+<fl:FlightDataMessage xmlns:fl="eurocontrol/cfmu/b2b/FlightServices" xmlns:fw="eurocontrol/cfmu/b2b/FlowServices" xmlns:as="eurocontrol/cfmu/b2b/AirspaceServices" xmlns:cm="eurocontrol/cfmu/b2b/CommonServices" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <uuid>25fe61d5-7ad6-4628-af68-44bdcf16289c</uuid>
+  <timestamp>2025-03-31 14:15:09 812</timestamp>
+  <messageExchangePattern>PUBLISH_SUBSCRIBE</messageExchangePattern>
+  <type>BUSINESS_MESSAGE</type>
+  <topic>FLIGHT_DATA</topic>
+  <subscriptionUuid>aaac9f63-b07f-4cc6-a033-6cd18c33fe7d</subscriptionUuid>
+  <subscriptionVersion>1</subscriptionVersion>
+  <parentMessageId>20250331141504E800464V52</parentMessageId>
+  <flightData>
+    <flightId>
+      <id>AT10225947</id>
+      <keys>
+        <aircraftId>IBE06FA</aircraftId>
+        <aerodromeOfDeparture>LEMD</aerodromeOfDeparture>
+        <nonICAOAerodromeOfDeparture>false</nonICAOAerodromeOfDeparture>
+        <airFiled>false</airFiled>
+        <aerodromeOfDestination>LIRF</aerodromeOfDestination>
+        <nonICAOAerodromeOfDestination>false</nonICAOAerodromeOfDestination>
+        <estimatedOffBlockTime>2025-03-31 13:50</estimatedOffBlockTime>
+      </keys>
+    </flightId>
+    <aircraftType>A20N</aircraftType>
+    <lastKnownPosition>
+      <timeOver>2025-03-31 14:14:37</timeOver>
+      <position>
+        <latitude>41.07666666666667</latitude>
+        <longitude>-2.466388888888889</longitude>
+      </position>
+      <level>
+        <unit>F</unit>
+        <level>286</level>
+      </level>
+    </lastKnownPosition>
+  </flightData>
+  <eventType>FSA</eventType>
+  <concernedUnits>
+    <item>APPLEMD</item>
+    <item>ACCLIRR</item>
+    <item>ACCLECB</item>
+    <item>ACCMLFFF</item>
+    <item>ACCLFMM</item>
+    <item>ACCLECM</item>
+    <item>IBEFPLO</item>
+  </concernedUnits>
+</fl:FlightDataMessage>

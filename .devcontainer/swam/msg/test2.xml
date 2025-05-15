@@ -1,0 +1,1703 @@
+<ffice:FficePublicationMessage xmlns:ns6="http://www.fixm.aero/ffice/1.1/bugfix/2024.04.30"
+    xmlns:ns5="http://www.fixm.aero/flight/4.3"
+    xmlns:ns7="http://www.eurocontrol.int/nm/fixm/ext/1.5"
+    xmlns:ns9="http://www.fixm.aero/app/ffice/1.1" xmlns:ffice="eurocontrol/cfmu/b2b/FficeServices"
+    xmlns:cm="eurocontrol/cfmu/b2b/CommonServices" xmlns:ns4="http://www.fixm.aero/base/4.3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <uuid>7bc4324d-f691-413c-a57a-52c50d1668d1</uuid>
+    <timestamp>2025-02-28 15:43:44 724</timestamp>
+    <messageExchangePattern>PUBLISH_SUBSCRIBE</messageExchangePattern>
+    <type>BUSINESS_MESSAGE</type>
+    <topic>FFICE_PUBLICATION</topic>
+    <subscriptionUuid>c26466e7-9b52-4e24-bf0f-1abf7444d8e5</subscriptionUuid>
+    <subscriptionVersion>1</subscriptionVersion>
+    <parentMessageId>20250228154341IAT09253241</parentMessageId>
+    <flight_v4_3>
+        <ns5:aircraft>
+            <ns5:aircraftAddress>4D228B</ns5:aircraftAddress>
+            <ns5:aircraftApproachCategory>C</ns5:aircraftApproachCategory>
+            <ns5:aircraftType>
+                <ns5:icaoAircraftTypeDesignator>B738</ns5:icaoAircraftTypeDesignator>
+            </ns5:aircraftType>
+            <ns5:capabilities>
+                <ns5:communication>
+                    <ns5:communicationCapabilityCode>E3 Y</ns5:communicationCapabilityCode>
+                    <ns5:datalinkCommunicationCapabilityCode>J1</ns5:datalinkCommunicationCapabilityCode>
+                    <ns5:otherCommunicationCapabilities>TCAS</ns5:otherCommunicationCapabilities>
+                </ns5:communication>
+                <ns5:navigation>
+                    <ns5:navigationCapabilityCode>D F G I L W</ns5:navigationCapabilityCode>
+                    <ns5:performanceBasedCode>B5 O1 A1 L1 D1 S2 D3 B1</ns5:performanceBasedCode>
+                    <ns5:requiredRunwayVisualRange uom="KM">0.175</ns5:requiredRunwayVisualRange>
+                </ns5:navigation>
+                <ns5:standardCapabilities>STANDARD</ns5:standardCapabilities>
+                <ns5:surveillance>
+                    <ns5:surveillanceCapabilityCode>B1 S</ns5:surveillanceCapabilityCode>
+                </ns5:surveillance>
+            </ns5:capabilities>
+            <ns5:registration>9HQDKZ</ns5:registration>
+            <ns5:wakeTurbulence>M</ns5:wakeTurbulence>
+        </ns5:aircraft>
+        <ns5:arrival>
+            <ns5:destinationAerodrome>
+                <ns4:locationIndicator>LIRF</ns4:locationIndicator>
+            </ns5:destinationAerodrome>
+            <ns5:destinationAerodromeAlternate>
+                <ns4:locationIndicator>LIBP</ns4:locationIndicator>
+            </ns5:destinationAerodromeAlternate>
+        </ns5:arrival>
+        <ns5:departure>
+            <ns5:departureAerodrome>
+                <ns4:locationIndicator>LICJ</ns4:locationIndicator>
+            </ns5:departureAerodrome>
+            <ns5:estimatedOffBlockTime>2025-02-28T18:25:00Z</ns5:estimatedOffBlockTime>
+        </ns5:departure>
+        <ns5:extension xsi:type="ns7:NmFlightExtensionType">
+            <ns7:ifpsFlightPlanIndicator>MODESASP</ns7:ifpsFlightPlanIndicator>
+            <ns7:ifpsIdentifier>AT09253241</ns7:ifpsIdentifier>
+        </ns5:extension>
+        <ns5:flightIdentification>
+            <ns5:aircraftIdentification>RYR9HGZ</ns5:aircraftIdentification>
+            <ns5:gufi creationTime="2025-02-28T06:16:40Z"
+                namespaceDomain="FULLY_QUALIFIED_DOMAIN_NAME"
+                namespaceIdentifier="ATM.C44E68E422626E3D730020A097C44538.LIDO.LHSYSTEMS.COM"
+                codeSpace="urn:uuid">E6B76ABD-463F-4775-829C-A64DA5CC76C3</ns5:gufi>
+            <ns5:iataFlightDesignator>
+                <ns5:flightNumber>4907</ns5:flightNumber>
+                <ns5:iataOperatorCode>FR</ns5:iataOperatorCode>
+            </ns5:iataFlightDesignator>
+        </ns5:flightIdentification>
+        <ns5:flightPlanOriginator>
+            <ns4:contact>
+                <ns4:onlineContact>
+                    <ns4:linkage>EDDFRYRX</ns4:linkage>
+                    <ns4:network>
+                        <ns4:type>AFTN</ns4:type>
+                    </ns4:network>
+                </ns4:onlineContact>
+            </ns4:contact>
+            <ns4:identifier>NA</ns4:identifier>
+            <ns4:identifierDomain>FF-ICE</ns4:identifierDomain>
+            <ns4:name>RYR</ns4:name>
+        </ns5:flightPlanOriginator>
+        <ns5:flightRulesCategory>I</ns5:flightRulesCategory>
+        <ns5:flightType>S</ns5:flightType>
+        <ns5:operator>
+            <ns4:designatorIcao>RYR</ns4:designatorIcao>
+        </ns5:operator>
+        <ns5:remarks>CONTACT +353 1 9451990 TCAS</ns5:remarks>
+        <ns5:routeTrajectoryGroup>
+            <ns5:agreed>
+                <ns5:climbProfile>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">0.0</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">0.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H0M0S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">5.718</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">457.20001220703125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H1M35S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">6.945</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">609.5999755859375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H1M47S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">8.922</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">914.4000244140625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H2M3S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">10.987</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1219.199951171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H2M18S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">13.103</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1524.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H2M33S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">15.282</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1828.800048828125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H2M49S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">17.547</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2133.60009765625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H3M5S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">19.886</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2438.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H3M22S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">22.298</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2743.199951171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H3M38S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">24.804</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3048.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H3M56S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">30.582</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3352.800048828125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H4M31S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">33.72</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3657.60009765625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H4M49S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">36.98</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3962.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H5M8S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">40.381</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4267.2001953125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H5M27S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">42.743</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4480.56005859375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H5M40S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">47.679</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4876.7998046875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H6M7S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">51.618</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">5181.60009765625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H6M28S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">55.778</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">5486.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H6M50S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">60.168</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">5791.2001953125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H7M13S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">64.793</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">6096.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H7M37S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">69.711</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">6400.7998046875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H8M2S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">74.945</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">6705.60009765625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H8M28S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">80.534</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">7010.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H8M55S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">86.512</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">7315.2001953125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H9M24S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">92.912</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">7620.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H9M54S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">98.824</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">7924.7998046875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H10M22S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">104.228</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">8229.599609375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H10M47S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">109.869</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">8534.400390625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H11M14S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">115.75</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">8839.2001953125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H11M42S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">121.947</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">9144.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H12M11S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">128.491</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">9448.7998046875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H12M43S</ns5:time>
+                    </ns5:profilePoint>
+                </ns5:climbProfile>
+                <ns5:descentProfile>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">0.0</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">9753.599609375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H0M0S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">22.27</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">8717.2802734375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H1M49S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">42.049</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">7772.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H3M31S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">62.442</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">6766.56005859375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H5M22S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">77.221</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">6035.0400390625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H6M45S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">102.593</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4785.35986328125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H9M16S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">110.623</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4389.1201171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H10M7S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">119.888</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3962.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H11M6S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">129.162</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3505.199951171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H12M6S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">138.436</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3048.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H13M8S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">151.399</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2407.919921875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H14M37S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">160.672</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1950.719970703125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H15M43S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">169.946</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1493.52001953125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H16M50S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">179.219</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1005.8400268554688</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H17M59S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">181.199</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">914.4000244140625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H18M14S</ns5:time>
+                    </ns5:profilePoint>
+                    <ns5:profilePoint>
+                        <ns5:distance uom="KM">218.338</ns5:distance>
+                        <ns5:level>
+                            <ns4:altitude uom="M">0.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:time>P0Y0M0DT0H24M47S</ns5:time>
+                    </ns5:profilePoint>
+                </ns5:descentProfile>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">0.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:aerodromeReferencePoint>
+                            <ns4:locationIndicator>LICJ</ns4:locationIndicator>
+                        </ns4:aerodromeReferencePoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">30.479999542236328</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>AIRPORT_REFERENCE_LOCATION</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.181944444474986 13.099444444454923</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:absoluteTime>2025-02-28T18:25:00Z</ns5:absoluteTime>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">6000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">457.20001220703125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.201388888919446 13.040277777788209</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H1M40S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">19000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2438.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.2436111111417 12.911944444454774</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H3M22S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">22000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2743.199951171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.25333333336393 12.882222222232528</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H3M37S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">24000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3048.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.259722222252826 12.86250000001029</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H3M54S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">30000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3352.800048828125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.279166666697286 12.803055555565797</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H4M27S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">32000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>CJ603</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3596.639892578125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.28555555558618 12.78333333334356</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H4M41S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">33000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3657.60009765625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.29333333336397 12.778888888899111</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H4M45S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">39000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4267.2001953125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.34000000003067 12.752222222232424</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H5M23S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">42000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4480.56005859375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.363333333364025 12.73888888889908</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H5M37S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">43000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>SOSUB</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4572.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.37111111114181 12.734444444454631</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H5M42S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">55000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">5486.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.46416666669744 12.806666666676911</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H6M48S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">60000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">5791.2001953125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.502777777808575 12.836944444454714</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H7M11S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">64000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">6096.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.53388888891971 12.8611111111214</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H7M36S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">69000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">6400.7998046875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.57250000003086 12.891111111121424</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H8M1S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">75000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">6705.60009765625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.618888888919784 12.927500000010342</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H8M28S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">80000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">7010.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.657777777808704 12.957777777788143</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H8M55S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">86000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">7315.2001953125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.70416666669763 12.994166666677062</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H9M25S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">93000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">7620.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.75833333336434 13.036666666677096</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H9M56S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">99000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">7924.7998046875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.80472222225326 13.073333333343792</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H10M24S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentDeparture>
+                            <ns4:designator>LURON5Q</ns4:designator>
+                        </ns5:standardInstrumentDeparture>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">106000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>LURON</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">8199.1201171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.85888888891997 13.115833333343826</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H10M58S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">107000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">8229.599609375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.86777777780887 13.11527777778827</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H11M0S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">112000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">8534.400390625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.91250000003113 13.111944444454933</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H11M28S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">118000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">8839.2001953125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>38.9658333333645 13.107777777788263</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H11M56S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">125000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">9144.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>39.02833333336456 13.103055555566037</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H12M26S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">131000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">9448.7998046875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>39.08166666669793 13.099166666677146</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H12M59S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">138000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">9753.599609375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>TOP_OF_CLIMB</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>39.14416666669798 13.094444444454918</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H13M31S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">189000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>DORAS</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">9753.599609375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>39.59888888892056 13.060000000010447</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H17M37S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">256000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>BEROL</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">9753.599609375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>40.20472222225438 13.013055555565966</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H22M59S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">311000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">9753.599609375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>TOP_OF_DESCENT</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>40.69722222225478 12.974444444454823</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H27M24S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">333000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">8717.2802734375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>40.89416666669938 12.958888888899255</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H29M9S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">335000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:navaid>
+                            <ns4:designator>PNZ</ns4:designator>
+                        </ns4:navaid>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">8595.3603515625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>40.91194444447717 12.957500000010365</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H29M22S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">383000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>NEKPI</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">6278.8798828125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>41.3333333333664 13.083333333343798</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H33M40S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">387000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">6035.0400390625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>41.36416666669975 13.058888888899336</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H34M4S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:otherRouteDesignator>DIRECT</ns5:otherRouteDesignator>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">410000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:navaid>
+                            <ns4:designator>LAT</ns4:designator>
+                        </ns4:navaid>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4876.7998046875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>TCP_VERTICAL</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>41.54111111114434 12.91805555556589</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H36M19S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">430000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>RF414</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4876.7998046875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>TCP_VERTICAL</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>41.67111111114445 12.755833333343537</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H38M20S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">436000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4572.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>TCP_VERTICAL</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>41.70944444447781 12.708055555565721</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H38M57S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">451000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:navaid>
+                            <ns4:designator>RMC</ns4:designator>
+                        </ns4:navaid>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4572.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>TCP_VERTICAL</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>41.80472222225566 12.588055555565626</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H40M31S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">454000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">4389.1201171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>41.82472222225568 12.561111111121159</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H40M51S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">462000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3962.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>41.87833333336683 12.48888888889888</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H41M41S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">465000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>TUVEL</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3962.39990234375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>41.89833333336685 12.461666666676635</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H42M3S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">485000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3048.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>TCP_VERTICAL</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.06583333336698 12.391944444454356</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H44M14S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">491000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>URUXO</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">3048.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>TCP_VERTICAL</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.116111111144804 12.371111111121007</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H44M59S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">497000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2743.199951171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>TCP_VERTICAL</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.16777777781151 12.349444444454324</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H45M40S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">499000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>VAKAB</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2743.199951171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.185000000033746 12.342222222232095</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H45M55S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">508000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>RF442</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2743.199951171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.26444444447825 12.308611111120957</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H47M4S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">517000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>RF443</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2743.199951171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.34388888892276 12.275277777787597</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H48M12S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">527000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>RF444</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2743.199951171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.42361111114505 12.24166666667646</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H49M29S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">534000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2743.199951171875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>TCP_VERTICAL</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.40333333336725 12.153888888898612</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H50M22S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">539000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>RF446</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2468.8798828125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.38861111114502 12.091111111120783</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H50M59S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">540000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2407.919921875</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.38055555558946 12.094444444454119</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H51M6S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">549000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>RF447</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">2011.6800537109375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.30888888892273 12.125000000009699</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H52M7S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">554000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1828.800048828125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.26472222225603 12.143611111120824</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H52M43S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">558000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>RF448</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1828.800048828125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.229444444478226 12.158611111120837</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H53M15S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">564000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1493.52001953125</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.17638888892263 12.181111111120856</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H53M58S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">567000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:designatedPoint>
+                            <ns4:designator>EXAMA</ns4:designator>
+                        </ns4:designatedPoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1310.6400146484375</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.15000000003372 12.192222222231976</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H54M21S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">572000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">1005.8400268554688</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.106388888922574 12.198055555565313</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H54M59S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">574000.0</ns5:alongRouteDistance>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">914.4000244140625</ns4:altitude>
+                        </ns5:level>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>42.08888888892256 12.200555555565316</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H55M12S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                    <ns5:routeDesignatorToNextElement>
+                        <ns5:standardInstrumentArrival>
+                            <ns4:designator>LAT3A</ns4:designator>
+                        </ns5:standardInstrumentArrival>
+                    </ns5:routeDesignatorToNextElement>
+                </ns5:element>
+                <ns5:element>
+                    <ns5:alongRouteDistance uom="M">607000.0</ns5:alongRouteDistance>
+                    <ns5:elementStartPoint>
+                        <ns4:aerodromeReferencePoint>
+                            <ns4:locationIndicator>LIRF</ns4:locationIndicator>
+                        </ns4:aerodromeReferencePoint>
+                    </ns5:elementStartPoint>
+                    <ns5:point4D>
+                        <ns5:level>
+                            <ns4:altitude uom="M">0.0</ns4:altitude>
+                        </ns5:level>
+                        <ns5:pointProperty>
+                            <ns5:propertyType>AIRPORT_REFERENCE_LOCATION</ns5:propertyType>
+                        </ns5:pointProperty>
+                        <ns5:position srsName="urn:ogc:def:crs:EPSG::4326">
+                            <ns4:pos>41.80027777781122 12.23888888889868</ns4:pos>
+                        </ns5:position>
+                        <ns5:time>
+                            <ns5:relativeTimeFromInitialPredictionPoint>P0Y0M0DT1H1M2S</ns5:relativeTimeFromInitialPredictionPoint>
+                        </ns5:time>
+                    </ns5:point4D>
+                </ns5:element>
+                <ns5:routeInformation>
+                    <ns5:cruisingLevel>
+                        <ns4:flightLevel uom="FL">320</ns4:flightLevel>
+                    </ns5:cruisingLevel>
+                    <ns5:cruisingSpeed uom="KT">404</ns5:cruisingSpeed>
+                    <ns5:routeText>LURON DCT DORAS DCT BEROL DCT PNZ DCT NEKPI DCT LAT</ns5:routeText>
+                    <ns5:totalEstimatedElapsedTime>P0Y0M0DT0H51M0S</ns5:totalEstimatedElapsedTime>
+                </ns5:routeInformation>
+                <ns5:takeoffMass uom="KG">62958</ns5:takeoffMass>
+            </ns5:agreed>
+        </ns5:routeTrajectoryGroup>
+    </flight_v4_3>
+    <operatorFlightPlanVersion_v4_3>2</operatorFlightPlanVersion_v4_3>
+    <eventHistory>
+        <item>
+            <sequenceNumber>1</sequenceNumber>
+            <event>
+                <eventType>FPL</eventType>
+                <timestamp>2025-02-28 06:16:41</timestamp>
+                <originator>EH001463</originator>
+            </event>
+        </item>
+        <!-- <item>
+            <sequenceNumber>2</sequenceNumber>
+            <event>
+                <eventType>CHG</eventType>
+                <timestamp>2025-02-28 15:43:41</timestamp>
+                <originator>EH001463</originator>
+            </event>
+        </item> -->
+    </eventHistory>
+    <concernedUnits>
+        <item>AROLIRF</item>
+        <item>CFPUAODO</item>
+        <item>ACCLIRR</item>
+        <item>APPLICJ</item>
+        <item>FDPLIRR</item>
+    </concernedUnits>
+</ffice:FficePublicationMessage>

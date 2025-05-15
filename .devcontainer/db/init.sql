@@ -102,6 +102,7 @@ ALTER TABLE public.icao_amhs_address OWNER TO postgres;
 
 CREATE TABLE public.ifplparams (
     id bigint NOT NULL,
+    eventtime bigint NOT NULL,
     ifplid character varying(20) NOT NULL,
     cs character varying(20) NOT NULL,
     adep character varying(20) NOT NULL,
@@ -973,7 +974,6 @@ INSERT INTO public.icao_amhs_address (key, country, nationality_letters, country
 INSERT INTO public.icao_amhs_address (key, country, nationality_letters, country_name, admd, prmd, org, org_unit, addressing_scheme, atndir, modified, last_modified, last_uploaded, line_nbr, line_nbr_ss, line_nbr_dd, line_nbr_ff, line_nbr_gg, line_nbr_kk, copy_line_nbr, copy_line_nbr_ss, copy_line_nbr_dd, copy_line_nbr_ff, copy_line_nbr_gg, copy_line_nbr_kk, local, fpl_version, enabled, alt_address) VALUES ('ZW', 'China', 'ZW', 'XX', 'ICAO', 'CHINA', 'XJ', 'ZW**', 'CAAS', 'C=CN', 'N', '2022-12-05 15:03:02', '2022-12-05 14:58:19', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'FPL2012', 'Y', NULL);
 INSERT INTO public.icao_amhs_address (key, country, nationality_letters, country_name, admd, prmd, org, org_unit, addressing_scheme, atndir, modified, last_modified, last_uploaded, line_nbr, line_nbr_ss, line_nbr_dd, line_nbr_ff, line_nbr_gg, line_nbr_kk, copy_line_nbr, copy_line_nbr_ss, copy_line_nbr_dd, copy_line_nbr_ff, copy_line_nbr_gg, copy_line_nbr_kk, local, fpl_version, enabled, alt_address) VALUES ('ZY', 'China', 'ZY', 'XX', 'ICAO', 'CHINA', 'NE', 'ZY**', 'CAAS', 'C=CN', 'N', '2022-12-05 15:03:02', '2022-12-05 14:58:19', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'FPL2012', 'Y', NULL);
 
-
 --
 -- TOC entry 4825 (class 0 OID 16419)
 -- Dependencies: 220
@@ -1109,5 +1109,4 @@ ALTER TABLE ONLY public.message_history
 --
 -- PostgreSQL database dump complete
 --
-INSERT INTO users (username, password)
-    VALUES ('admin', 'admin');
+INSERT INTO public.users (username, password) VALUES ('admin', 'admin');
