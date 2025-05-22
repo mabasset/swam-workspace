@@ -102,6 +102,7 @@ ALTER TABLE public.icao_amhs_address OWNER TO postgres;
 
 CREATE TABLE public.ifplparams (
     id bigint NOT NULL,
+    gufi UUID,
     eventtime bigint NOT NULL,
     ifplid character varying(20) NOT NULL,
     cs character varying(20) NOT NULL,
